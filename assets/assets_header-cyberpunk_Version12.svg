@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 220" width="1600" height="220" preserveAspectRatio="none">
+  <defs>
+    <!-- Fundo preto/cinza -->
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2b2b2b"/>
+    </linearGradient>
+
+    <!-- Scanlines finas (compatível) -->
+    <pattern id="scan" width="4" height="2" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="4" height="1" fill="#ffffff" opacity="0.05"/>
+      <rect x="0" y="1" width="4" height="1" fill="transparent"/>
+    </pattern>
+
+    <!-- Sheen animado -->
+    <linearGradient id="sheen" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Faixa neon fininha (igual ao divisor) -->
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="50%" stop-color="#FF00FF"/>
+      <stop offset="100%" stop-color="#FFFF00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect x="0" y="0" width="1600" height="220" fill="url(#bg)"/>
+
+  <!-- Painel angular escuro -->
+  <path d="M0,10 L1550,10 L1600,40 L1600,180 L1550,210 L0,210 Z" fill="#0b0b0b" opacity="0.45"/>
+
+  <!-- Bordas vermelho escuro -->
+  <rect x="0" y="10" width="1600" height="2" fill="#5A0A0A" opacity="0.7"/>
+  <rect x="0" y="208" width="1600" height="2" fill="#5A0A0A" opacity="0.7"/>
+
+  <!-- Scanlines -->
+  <rect x="0" y="0" width="1600" height="220" fill="url(#scan)"/>
+
+  <!-- Glitches horizontais discretos (sem filtros) -->
+  <g fill="#5A0A0A" opacity="0.22">
+    <rect x="-240" y="64" width="160" height="3">
+      <animate attributeName="x" from="-240" to="1600" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-320" y="110" width="100" height="2">
+      <animate attributeName="x" from="-320" to="1600" dur="4.0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-280" y="156" width="200" height="2">
+      <animate attributeName="x" from="-280" to="1600" dur="6.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Faixa neon fininha animada (padronizada com o divisor) -->
+  <rect x="-260" y="138" width="200" height="2" fill="url(#accent)">
+    <animate attributeName="x" from="-260" to="1600" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Sheen animado atravessando -->
+  <rect x="-220" y="10" width="220" height="200" fill="url(#sheen)">
+    <animate attributeName="x" from="-220" to="1600" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Texto (sem filtro para evitar blocos cinza) -->
+  <text x="50%" y="95" text-anchor="middle" font-family="Share Tech Mono, 'Segoe UI', Tahoma, Verdana, sans-serif"
+        font-size="64" letter-spacing="2" fill="#5A0A0A" stroke="#2b0000" stroke-width="0.6" paint-order="stroke">
+    B3RN4RD0 T3IX3IR4
+  </text>
+  <text x="50%" y="130" text-anchor="middle" font-family="Share Tech Mono, 'Segoe UI', Tahoma, Verdana, sans-serif"
+        font-size="20" fill="#5A0A0A" opacity="0.95">
+    ◤◢◤◢ CYBERSECURITY AI ENGINEER ◤◢◤◢
+  </text>
+</svg>
