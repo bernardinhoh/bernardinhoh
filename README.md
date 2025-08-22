@@ -9,6 +9,15 @@
 <br/>
 
 <div align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/bernardinhoh/bernardinhoh/main/assets/arasaka-terminal.svg">
+    <img src="https://raw.githubusercontent.com/bernardinhoh/bernardinhoh/main/assets/arasaka-terminal-static.svg" alt="ARASAKA Neural Interface Terminal" width="80%"/>
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
   <img width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
   <img width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
   <img width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />

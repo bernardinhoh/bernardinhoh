@@ -1,0 +1,182 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .terminal-bg {
+        fill: #000000;
+        stroke: #FFD700;
+        stroke-width: 2;
+        filter: drop-shadow(0 0 10px #FFD700);
+      }
+      
+      .terminal-text {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #FFD700;
+        text-shadow: 0 0 5px #FFD700;
+      }
+      
+      .arasaka-text {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #FFA500;
+        text-shadow: 0 0 8px #FFA500;
+      }
+      
+      .system-text {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #FFFF00;
+        text-shadow: 0 0 6px #FFFF00;
+        font-weight: bold;
+      }
+      
+      .cursor {
+        fill: #FFD700;
+        animation: blink 1s infinite;
+      }
+      
+      .glitch {
+        animation: glitch 0.3s infinite;
+      }
+      
+      .flicker {
+        animation: flicker 2s infinite;
+      }
+      
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+      
+      @keyframes glitch {
+        0% { transform: translate(0); }
+        20% { transform: translate(-2px, 2px); }
+        40% { transform: translate(-2px, -2px); }
+        60% { transform: translate(2px, 2px); }
+        80% { transform: translate(2px, -2px); }
+        100% { transform: translate(0); }
+      }
+      
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+      }
+      
+      .line1 { animation: typewriter 1s steps(40) 0s forwards, flicker 0.5s 1s; }
+      .line2 { animation: typewriter 1s steps(50) 1.5s forwards, flicker 0.3s 2.5s; }
+      .line3 { animation: typewriter 1s steps(45) 3s forwards, glitch 0.3s 4s; }
+      .line4 { animation: typewriter 1s steps(55) 4.5s forwards, flicker 0.4s 5.5s; }
+      .line5 { animation: typewriter 1s steps(50) 6s forwards, glitch 0.2s 7s; }
+      .line6 { animation: typewriter 1s steps(60) 7.5s forwards, flicker 0.3s 8.5s; }
+      .line7 { animation: typewriter 1s steps(55) 9s forwards, glitch 0.4s 10s; }
+      
+      /* Animation loop reset every 15 seconds */
+      .animation-group {
+        animation: reset-loop 15s infinite;
+      }
+      
+      @keyframes reset-loop {
+        0% { opacity: 1; }
+        93.33% { opacity: 1; }
+        93.34% { opacity: 0; }
+        99.99% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      
+      .text-line {
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        display: inline-block;
+      }
+    </style>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="noise">
+      <feTurbulence baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="discrete" tableValues="0 .5 0 1 0 .8 0 .2 0 1"/>
+      </feComponentTransfer>
+      <feComposite in2="SourceGraphic" operator="multiply"/>
+    </filter>
+  </defs>
+  
+  <!-- Terminal Background -->
+  <rect x="10" y="10" width="780" height="380" class="terminal-bg" rx="5" ry="5"/>
+  
+  <!-- Terminal Header -->
+  <rect x="20" y="20" width="760" height="25" fill="#1a1a1a" stroke="#FFD700" stroke-width="1"/>
+  <text x="30" y="38" class="terminal-text" style="font-size: 12px;">ARASAKA NEURAL INTERFACE v2.4.7 - AUTHENTICATED SESSION</text>
+  
+  <!-- Terminal Content -->
+  <g transform="translate(30, 70)" class="animation-group">
+    <!-- Line 1 -->
+    <text x="0" y="0" class="terminal-text">
+      <tspan class="text-line line1">$ ./neural_interface --initialize</tspan>
+    </text>
+    
+    <!-- Line 2 -->
+    <text x="0" y="25" class="arasaka-text">
+      <tspan class="text-line line2">[ARASAKA] Timestamp: 2025-08-22 18:43:49 UTC</tspan>
+    </text>
+    
+    <!-- Line 3 -->
+    <text x="0" y="50" class="arasaka-text">
+      <tspan class="text-line line3">[ARASAKA] User ID: bernardinhoh authenticated</tspan>
+    </text>
+    
+    <!-- Line 4 -->
+    <text x="0" y="75" class="arasaka-text">
+      <tspan class="text-line line4">[ARASAKA] Loading cybernetic protocols...</tspan>
+    </text>
+    
+    <!-- Line 5 -->
+    <text x="0" y="100" class="arasaka-text">
+      <tspan class="text-line line5">[ARASAKA] Neural link established successfully</tspan>
+    </text>
+    
+    <!-- Line 6 -->
+    <text x="0" y="125" class="arasaka-text">
+      <tspan class="text-line line6">[ARASAKA] Welcome to Arasaka Network, Agent bernardinhoh</tspan>
+    </text>
+    
+    <!-- Line 7 -->
+    <text x="0" y="150" class="system-text">
+      <tspan class="text-line line7">[SYSTEM] Access level: CLASSIFIED | Status: ONLINE</tspan>
+    </text>
+    
+    <!-- Blinking Cursor -->
+    <rect x="0" y="175" width="10" height="15" class="cursor">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="11s"/>
+    </rect>
+  </g>
+  
+  <!-- Glitch overlay -->
+  <rect x="10" y="10" width="780" height="380" fill="none" filter="url(#noise)" opacity="0.1">
+    <animate attributeName="opacity" values="0;0.1;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Scan lines effect -->
+  <defs>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="2" fill="#FFD700" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="10" width="780" height="380" fill="url(#scanlines)"/>
+  
+  <!-- Animation loop reset -->
+  <animateTransform attributeName="transform" type="translate" values="0,0" dur="15s" repeatCount="indefinite"/>
+</svg>
