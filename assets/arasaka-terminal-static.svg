@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <!-- Terminal background gradient -->
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    
+    <!-- Yellow neon glow -->
+    <filter id="yellowGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Scanlines pattern -->
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="1" height="2">
+      <rect width="1" height="1" fill="#00ff00" opacity="0.03"/>
+      <rect y="1" width="1" height="1" fill="transparent"/>
+    </pattern>
+  </defs>
+  
+  <!-- Terminal background -->
+  <rect width="800" height="300" fill="url(#terminalBg)" stroke="#333" stroke-width="2"/>
+  
+  <!-- Scanlines overlay -->
+  <rect width="800" height="300" fill="url(#scanlines)"/>
+  
+  <!-- Terminal header bar -->
+  <rect y="0" width="800" height="25" fill="#2a2a2a"/>
+  <circle cx="15" cy="12.5" r="5" fill="#ff5f56"/>
+  <circle cx="35" cy="12.5" r="5" fill="#ffbd2e"/>
+  <circle cx="55" cy="12.5" r="5" fill="#27ca3f"/>
+  <text x="400" y="17" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="12" fill="#ccc">ARASAKA NEURAL INTERFACE v2.1.7</text>
+  
+  <!-- Terminal prompt and commands -->
+  <g font-family="Monaco, 'Courier New', monospace" font-size="14">
+    <!-- Line 1: Command prompt -->
+    <text x="20" y="50">
+      <tspan fill="#ffff00">bernardinhoh@arasaka</tspan><tspan fill="#00ff00">:~$ </tspan>
+      <tspan fill="#ffffff">./neural_interface --initialize</tspan>
+    </text>
+    
+    <!-- Line 2: Timestamp -->
+    <text x="20" y="75">
+      <tspan fill="#ffff00">[ARASAKA]</tspan>
+      <tspan fill="#00ff00"> Timestamp: 2025-08-22 18:27:40 UTC</tspan>
+    </text>
+    
+    <!-- Line 3: Authentication -->
+    <text x="20" y="100">
+      <tspan fill="#ffff00">[ARASAKA]</tspan>
+      <tspan fill="#00ff00"> User ID: </tspan>
+      <tspan fill="#ffff00">bernardinhoh</tspan>
+      <tspan fill="#00ff00"> authenticated</tspan>
+    </text>
+    
+    <!-- Line 4: Loading protocols -->
+    <text x="20" y="125">
+      <tspan fill="#ffff00">[ARASAKA]</tspan>
+      <tspan fill="#00ff00"> Loading cybernetic protocols...</tspan>
+    </text>
+    
+    <!-- Line 5: Neural link established -->
+    <text x="20" y="150">
+      <tspan fill="#ffff00">[ARASAKA]</tspan>
+      <tspan fill="#00ff00"> Neural link established </tspan>
+      <tspan fill="#ffff00" filter="url(#yellowGlow)">successfully</tspan>
+    </text>
+    
+    <!-- Line 6: Welcome message -->
+    <text x="20" y="175">
+      <tspan fill="#ffff00">[ARASAKA]</tspan>
+      <tspan fill="#00ff00"> Welcome to Arasaka Network, Agent </tspan>
+      <tspan fill="#ffff00" filter="url(#yellowGlow)">bernardinhoh</tspan>
+    </text>
+    
+    <!-- Line 7: System status -->
+    <text x="20" y="200">
+      <tspan fill="#ff6b6b">[SYSTEM]</tspan>
+      <tspan fill="#00ff00"> Access level: </tspan>
+      <tspan fill="#ffff00" filter="url(#yellowGlow)">CLASSIFIED</tspan>
+      <tspan fill="#00ff00"> | Status: </tspan>
+      <tspan fill="#ffff00" filter="url(#yellowGlow)">ONLINE</tspan>
+    </text>
+    
+    <!-- Cursor -->
+    <text x="20" y="225" fill="#ffff00">█</text>
+  </g>
+</svg>
