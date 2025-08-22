@@ -10,6 +10,10 @@
 <pre>
 <code style="color: #FCEE0A; background-color: #000000; font-family: 'Courier New', monospace;">
 ╔═══════════════════════════════════════════════════════════╗
+║    ╔═╗╦ ╦╔╗ ╔═╗╦═╗╔═╗╦ ╦╔╗╔╦╔═  ╔═╗╔═╗╔╦╗╔╦╗               ║
+║    ║  ╚╦╝╠╩╗║╣ ╠╦╝╠═╝║ ║║║║╠╩╗  ╔═╝║ ║ ║  ║                ║
+║    ╚═╝ ╩ ╚═╝╚═╝╩╚═╩  ╚═╝╝╚╝╩ ╩  ╚═╝╚═╝ ╩  ╩                ║
+║                                                           ║
 ║  >> NETRUNNER TERMINAL v2.077 - STATUS: ONLINE <<        ║
 ║  >> JACK IN SUCCESSFUL - ICE FIREWALL BYPASSED <<        ║
 ║  >> ACCESSING GITHUB MAINFRAME... ACCESS GRANTED <<      ║
@@ -50,6 +54,13 @@
 <strong>// USER: bernardinhoh</strong>
 <strong>// LOCATION: Night City Net</strong>
 <strong>// STATUS: Breaching corporate ICE since 2077</strong>
+
+    ██████╗ ███████╗██████╗ ███╗   ██╗ █████╗ ██████╗ ██████╗ ██╗███╗   ██╗██╗  ██╗ ██████╗ 
+    ██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔══██╗██║████╗  ██║██║  ██║██╔═══██╗
+    ██████╔╝█████╗  ██████╔╝██╔██╗ ██║███████║██████╔╝██║  ██║██║██╔██╗ ██║███████║██║   ██║
+    ██╔══██╗██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██╔══██╗██║  ██║██║██║╚██╗██║██╔══██║██║   ██║
+    ██████╔╝███████╗██║  ██║██║ ╚████║██║  ██║██║  ██║██████╔╝██║██║ ╚████║██║  ██║╚██████╔╝
+    ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ 
 
 Wake the f*ck up, samurai. We have code to burn.
 In the sprawl of Night City's digital landscape, 
@@ -108,9 +119,37 @@ Your friendly neighborhood code-slinger and data-runner.
 <strong>// NEURAL LINK ESTABLISHED</strong>
 <strong>// READY TO JACK INTO THE NET</strong>
 
+    ████████╗██╗  ██╗ █████╗ ███╗   ██╗██╗  ██╗███████╗    ███████╗ ██████╗ ██████╗ 
+    ╚══██╔══╝██║  ██║██╔══██╗████╗  ██║██║ ██╔╝██╔════╝    ██╔════╝██╔═══██╗██╔══██╗
+       ██║   ███████║███████║██╔██╗ ██║█████╔╝ ███████╗    █████╗  ██║   ██║██████╔╝
+       ██║   ██╔══██║██╔══██║██║╚██╗██║██╔═██╗ ╚════██║    ██╔══╝  ██║   ██║██╔══██╗
+       ██║   ██║  ██║██║  ██║██║ ╚████║██║  ██╗███████║    ██║     ╚██████╔╝██║  ██║
+       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    ╚═╝      ╚═════╝ ╚═╝  ╚═╝
+                                                                                     
+        ██╗   ██╗██╗███████╗██╗████████╗██╗███╗   ██╗ ██████╗ 
+        ██║   ██║██║██╔════╝██║╚══██╔══╝██║████╗  ██║██╔════╝ 
+        ██║   ██║██║███████╗██║   ██║   ██║██╔██╗ ██║██║  ███╗
+        ╚██╗ ██╔╝██║╚════██║██║   ██║   ██║██║╚██╗██║██║   ██║
+         ╚████╔╝ ██║███████║██║   ██║   ██║██║ ╚████║╚██████╔╝
+          ╚═══╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+
 "The future is not some place we are going, 
 but one we are creating." - Cyberpunk 2077
 </pre>
+</div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FCEE0A&height=3&section=header&text=&fontSize=0" width="80%"/>
+</p>
+
+<div align="center">
+<h3 style="color: #FCEE0A;">🌐 NETRUNNER CONNECTIONS 🌐</h3>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/GITHUB-bernardinhoh-FCEE0A?style=for-the-badge&logo=github&logoColor=000000&labelColor=1a1a1a" />
+  <img src="https://img.shields.io/badge/LINKEDIN-Connect-FFD700?style=for-the-badge&logo=linkedin&logoColor=000000&labelColor=2d2d2d" />
+  <img src="https://img.shields.io/badge/EMAIL-Contact-FCEE0A?style=for-the-badge&logo=gmail&logoColor=000000&labelColor=1a1a1a" />
 </div>
 
 <br/>
