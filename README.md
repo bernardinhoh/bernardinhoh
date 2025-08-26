@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=120&section=header&text=NeuralWired&fontSize=50&fontColor=E6E6FA&animation=twinkling&fontAlignY=35&desc=Enginner%20IA&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9932CC&&height=120&section=header&text=NeuralWired&fontSize=50&fontColor=E6E6FA&animation=twinkling&fontAlignY=35&desc=Enginner%20IA&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=28&center=true&vCenter=true&width=600&height=60&duration=3000&color=9932CC&lines=█▓▒░+CYBER+DEVELOPER+░▒▓█;█▓▒░+CODE+IN+THE+MATRIX+░▒▓█;█▓▒░+PURPLE+HAZE+MODE+░▒▓█" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=28&center=true&vCenter=true&width=600&height=60&duration=3000&color=9932CC&lines=█▓▒░+CYBER+DEVELOPER+░▒▓█;█▓▒░+CODE+IN+THE+MATRIX+░▒▓█;█▓▒░+NETRUNNER+MODE+░▒▓█" />
 </div>
 
 <br/>
@@ -43,7 +43,6 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/NEURAL_NETWORKS-8A2BE2?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=2D1B69" />
-  <img src="https://img.shields.io/badge/MACHINE_LEARNING-9932CC?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=2D1B69" />
   <img src="https://img.shields.io/badge/DATA_SCIENCE-9370DB?style=for-the-badge&logo=pandas&logoColor=white&labelColor=2D1B69" />
 </div>
 
