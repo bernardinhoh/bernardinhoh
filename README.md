@@ -61,7 +61,7 @@
 <br/>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=bernardinhoh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=9932CC&text_color=E6E6FA&border_radius=10&cache_seconds=0" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=bernardinhoh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=9932CC&text_color=E6E6FA&border_radius=10" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=bernardinhoh&theme=tokyonight&hide_border=true&background=0D1117&stroke=8A2BE2&ring=9932CC&fire=8A2BE2&currStreakLabel=E6E6FA&sideLabels=E6E6FA&currStreakNum=9932CC&sideNums=9932CC&dates=E6E6FA&border_radius=10" />
   
 </div>
@@ -69,7 +69,7 @@
 <br/>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardinhoh&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=0" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bernardinhoh&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 <br/>
