@@ -5,9 +5,6 @@
 </div>
 
 <div align="center">
-   𝐅𝐢𝐧𝐚𝐥 𝐟𝐞𝐥𝐢𝐳? 𝐍ã𝐨 𝐧𝐞𝐬𝐬𝐚 𝐜𝐢𝐝𝐚𝐝𝐞, 𝐧ã𝐨 𝐩𝐚𝐫𝐚 𝐩𝐞𝐬𝐬𝐨𝐚𝐬 𝐜𝐨𝐦𝐨 𝐧ó𝐬.
-<br>
-<br>
 <p align="center"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> </p>
 
   
