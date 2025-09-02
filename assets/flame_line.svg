@@ -1,4 +1,4 @@
-<svg width="450" height="150" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="flameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1">
@@ -19,12 +19,12 @@
       </feMerge>
     </filter>
   </defs>
-  <path d="M10,25 Q50,20 100,25 T190,25" stroke="url(#flameGradient)" stroke-width="3" fill="none" filter="url(#glow)">
+  <path d="M20,50 Q100,40 200,50 T380,50" stroke="url(#flameGradient)" stroke-width="5" fill="none" filter="url(#glow)">
     <animate attributeName="d" 
-             values="M10,25 Q50,20 100,25 T190,25;
-                     M10,25 Q50,30 100,20 T190,25;
-                     M10,25 Q50,15 100,30 T190,25;
-                     M10,25 Q50,20 100,25 T190,25"
+             values="M20,50 Q100,40 200,50 T380,50;
+                     M20,50 Q100,60 200,40 T380,50;
+                     M20,50 Q100,30 200,60 T380,50;
+                     M20,50 Q100,40 200,50 T380,50"
              dur="2s" repeatCount="indefinite"/>
   </path>
 </svg>
