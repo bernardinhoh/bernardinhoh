@@ -1,0 +1,56 @@
+
+<svg width="640" height="160" viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linha amarela pegando fogo">
+  <defs>
+    <!-- Gradiente das chamas (do amarelo ao vermelho) -->
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffd54a"/>  <!-- amarelo quente -->
+      <stop offset="45%"  stop-color="#ff8c00"/>  <!-- laranja -->
+      <stop offset="100%" stop-color="#d11f00"/>  <!-- vermelho -->
+    </linearGradient>
+
+    <!-- Filtro para tremulação das chamas -->
+    <filter id="flame" x="-80%" y="-400%" width="260%" height="900%">
+      <!-- Ruído para deformar e simular chamas -->
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.28" numOctaves="3" seed="3" result="noise">
+        <animate attributeName="baseFrequency"
+                 dur="2.4s"
+                 values="0.015 0.28;0.022 0.35;0.015 0.28"
+                 repeatCount="indefinite"/>
+        <animate attributeName="seed"
+                 dur="1.6s"
+                 values="2;7;2"
+                 repeatCount="indefinite"/>
+      </feTurbulence>
+
+      <!-- Desloca o traço grosso pelo ruído para formar línguas de fogo -->
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="22"
+                         xChannelSelector="R" yChannelSelector="G">
+        <animate attributeName="scale"
+                 dur="1.9s"
+                 values="14;24;14"
+                 repeatCount="indefinite"/>
+      </feDisplacementMap>
+
+      <!-- Desfoque para brilho suave -->
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Grupo centralizado verticalmente -->
+  <g transform="translate(40,80)">
+    <!-- Traço grosso com gradiente + filtro: chamas -->
+    <line x1="0" y1="0" x2="560" y2="0"
+          stroke="url(#flameGrad)"
+          stroke-width="16"
+          stroke-linecap="round"
+          filter="url(#flame)"
+          opacity="0.92"/>
+
+    <!-- Linha fininha amarela por cima -->
+    <line x1="0" y1="0" x2="560" y2="0"
+          stroke="#FFD400"          <!-- amarelo vivo -->
+          stroke-width="2"
+          stroke-linecap="round"
+          vector-effect="non-scaling-stroke"/>
+  </g>
+</svg>
