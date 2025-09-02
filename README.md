@@ -1,27 +1,23 @@
-<div align="center" style="background-color: #000000; padding: 20px; border-radius: 10px; margin: 20px 0;">
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=48&center=true&vCenter=true&width=600&height=80&duration=3000&color=E10008&lines=꧁+NEURAL+WIRED+꧂" />
-  </h1>
+<div align="center">
+ 
+<div align="center" style="background-color: #000000; padding: 10px;">
+   <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=48&center=true&vCenter=true&width=600&height=80&duration=3000&color=FFA500&lines=☀+NEURAL+WIRED+☀"/>
 </div>
 
+![flame_line](https://github.com/user-attachments/assets/443e060e-78be-424b-b886-bd36c979d59d)
+
+
+
 <div align="center">
-<p align="center"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> </p>
+<img width="350" height="350" alt="580b585b2edbce24c47b270f" src="https://github.com/user-attachments/assets/57b7deff-527d-48db-9d6c-43610ae354bd" />
+<img width="2048" height="2048" alt="Manga-Escanor-PNG-Clipart" src="https://github.com/user-attachments/assets/944e829b-b374-4c35-9e02-81949cabf31d" />
 
-  
-  <div align="center" style="background-color: #000000; padding: 10px; margin: 20px 0;">
 
-  <img width="1600" height="1200" alt="Gojo-Satoru-aka-Red-Jujutsu-Kaisen" src="https://github.com/user-attachments/assets/4397dd35-239a-4dc1-8bf2-c5391bdf087d" />
-
----
-
-<div align="center" style="background-color: #000000; padding: 15px; border-radius: 5px; margin: 20px 0;">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=16&center=true&vCenter=true&width=600&height=80&duration=4000&color=E10008&lines=>>>+INITIALIZING+WHITE+DEATH+PROTOCOL...;>>>+DATA+STARTED+IN+THE+NEURAL+NETWORK;>>>+YOUR+BLADE+IS+READY+TO+OFFER+THE+DESTINATION"/>
+![flame_line](https://github.com/user-attachments/assets/443e060e-78be-424b-b886-bd36c979d59d)
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=16&center=true&vCenter=true&width=600&height=80&duration=4000&color=FFA500&lines=>>>+PRISE+THE+SUN+...;>>>SIN+OF+PRIDE" />
 </div>
 
 <br>
-  
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bernardinhoh&hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=shadow_red&locale=pt-br&hide_border=false" height="150" alt="stats graph"  />
 
 </div>
 
