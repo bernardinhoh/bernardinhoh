@@ -1,0 +1,30 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFF00;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FFFF00;#FF4500;#FFFF00" dur="1s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#FF4500;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FF4500;#FFA500;#FF4500" dur="1.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#FFFF00;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FFFF00;#FF4500;#FFFF00" dur="1.4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M10,25 Q50,20 100,25 T190,25" stroke="url(#flameGradient)" stroke-width="3" fill="none" filter="url(#glow)">
+    <animate attributeName="d" 
+             values="M10,25 Q50,20 100,25 T190,25;
+                     M10,25 Q50,30 100,20 T190,25;
+                     M10,25 Q50,15 100,30 T190,25;
+                     M10,25 Q50,20 100,25 T190,25"
+             dur="2s" repeatCount="indefinite"/>
+  </path>
+</svg>
