@@ -7,13 +7,11 @@
     <!-- Coluna Esquerda -->
     <td width="50%" valign="center">
      
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3477d47d-54da-40ed-9f1e-068b96177f76" />
+<img width="1199" height="672" alt="image" src="https://github.com/user-attachments/assets/1bb19307-998c-45db-a122-3a2a3ddc4238" />
+
 
 
 
   </tr>
 </table>
 
-<div align="center">
-  <sub>//-- END_OF_TRANSMISSION --//</sub>
-</div>
